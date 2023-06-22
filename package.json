@@ -1,0 +1,30 @@
+{
+  "name": "gql-api",
+  "version": "1.0.0",
+  "description": "A graphql API]",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile",
+    "start": "node ./dist/src/index.js"
+  },
+  "author": "Motahar Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.4",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.7.0",
+    "jest": "^29.5.0",
+    "microservices": "^0.1.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22",
+    "rabbitmq": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
+}
